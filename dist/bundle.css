@@ -1,0 +1,64 @@
+body {
+  font-family: 'Economica', sans-serif !important; }
+
+.header-container .message:not(:last-child) {
+  margin-bottom: 4px; }
+
+.header-container .hero {
+  webkit-box-shadow: 0px 7px 5px -3px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0px 7px 5px -3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 7px 5px -3px rgba(0, 0, 0, 0.08); }
+  .header-container .hero .hero-body {
+    padding: 8px 0 8px; }
+    .header-container .hero .hero-body .navbar-brand .navbar-item {
+      padding: 0; }
+      .header-container .hero .hero-body .navbar-brand .navbar-item img {
+        max-height: inherit; }
+    .header-container .hero .hero-body .navbar-menu .navbar-item {
+      font-weight: bold;
+      font-size: 18px;
+      margin: 0 24px;
+      color: #000; }
+      .header-container .hero .hero-body .navbar-menu .navbar-item:last-child {
+        margin-right: 0; }
+      .header-container .hero .hero-body .navbar-menu .navbar-item:hover:first-letter {
+        color: #fb009a; }
+      .header-container .hero .hero-body .navbar-menu .navbar-item:hover {
+        color: #4f2cb5; }
+
+.header-container .message-header {
+  background-color: #4f2cb5 !important; }
+  .header-container .message-header i {
+    margin: 0 16px;
+    cursor: pointer; }
+    .header-container .message-header i:last-child {
+      margin-right: 0; }
+
+.hero-banner {
+  background-color: #fff !important;
+  margin-top: 8px; }
+
+.thumb-gallery {
+  margin-top: 16px !important; }
+  .thumb-gallery .tile {
+    -webkit-box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.69);
+    box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.69);
+    margin: 0 6px;
+    overflow: hidden;
+    cursor: pointer;
+    /* Disable grayscale on hover */ }
+    .thumb-gallery .tile.is-parent {
+      padding: 8px; }
+    .thumb-gallery .tile img {
+      filter: gray;
+      /* IE6-9 */
+      -webkit-filter: grayscale(1);
+      /* Google Chrome, Safari 6+ & Opera 15+ */
+      filter: grayscale(0.8);
+      /* Microsoft Edge and Firefox 35+ */
+      transition: .5s; }
+    .thumb-gallery .tile img:hover {
+      -webkit-filter: grayscale(0);
+      filter: none;
+      transition: .8s;
+      transform: scale(1.5); }
