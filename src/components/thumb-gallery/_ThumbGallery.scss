@@ -1,0 +1,27 @@
+.thumb-gallery {
+    margin-top: 16px !important;
+    .tile {
+        -webkit-box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.69);
+        box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, 0.69);
+        margin: 0 6px;
+        overflow: hidden;
+        cursor: pointer;
+        &.is-parent {
+            padding: 8px;
+        }
+        img {
+            filter: gray; /* IE6-9 */
+            -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+            filter: grayscale(.8); /* Microsoft Edge and Firefox 35+ */
+            transition: .5s;
+        }
+
+        /* Disable grayscale on hover */
+        img:hover {
+            -webkit-filter: grayscale(0);
+            filter: none;
+            transition: .8s;
+            transform: scale(1.5);
+        }
+    }
+}
