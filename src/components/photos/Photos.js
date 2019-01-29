@@ -5,7 +5,7 @@ class Photos extends Component {
   render() {
 
     return (
-      <div className="container">
+      <div className="">
         <PhotoGrid />
       </div>
     );

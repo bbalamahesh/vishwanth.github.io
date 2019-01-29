@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class ThumbGallery extends Component {
   render() {
@@ -9,7 +10,9 @@ class ThumbGallery extends Component {
       return (
         <div key={image} className="tile is-parent">
           <figure className="image is-480x480">
-            <img src={`images/${image}.png`} alt="" className="img-responsive" />
+            <Link to='/photos'>
+              <img src={`images/${image}.png`} alt="" className="img-responsive" />
+            </Link>
           </figure >
         </div>
       );

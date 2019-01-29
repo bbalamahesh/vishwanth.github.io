@@ -12,10 +12,11 @@
     "react": "^16.6.3",
     "react-bulma-components": "^2.3.0",
     "react-dom": "^16.6.3",
-    "react-image-lightbox": "^5.1.0",
     "react-images": "^0.5.19",
+    "react-photo-gallery": "^6.3.0",
     "react-redux": "^5.1.1",
     "react-router-dom": "^4.3.1",
+    "react-youtube": "^7.9.0",
     "redux": "^3.7.2"
   },
   "devDependencies": {

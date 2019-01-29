@@ -1,0 +1,11 @@
+.video-gallery {
+    margin-top: 32px;
+    div {
+        display: inline-block;
+        margin: 12px !important;
+        box-shadow: 5px 5px 10px #ccc;
+        -moz-box-shadow: 5px 5px 10px #ccc;
+        -webkit-box-shadow: 5px 5px 10px #ccc;
+        border: 4px solid #fff;
+    }
+}
