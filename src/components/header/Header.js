@@ -3,14 +3,13 @@ import { Link } from "react-router-dom";
 
 class Header extends Component {
   render() {
-
     return (
       <div>
         <header className="header-container">
           <article className="message is-link">
             <div className="message-header">
               <span><strong>Email: </strong>vishwanth.balamahesh@gmail.com</span>
-              <span>
+              <span className="is-pulled-right">
                 <i className="fab fa-twitter"></i>
                 <i className="fab fa-facebook-f"></i>
                 <i className="fab fa-instagram"></i>

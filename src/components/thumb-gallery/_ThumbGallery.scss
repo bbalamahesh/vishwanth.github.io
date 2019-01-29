@@ -6,8 +6,14 @@
         margin: 0 6px;
         overflow: hidden;
         cursor: pointer;
+        @media screen and (max-width: 1024px) {
+            margin: 0;
+        }
         &.is-parent {
             padding: 8px;
+            @media screen and (max-width: 1024px) {
+                padding: 0;
+            }
         }
         img {
             filter: gray; /* IE6-9 */
@@ -17,11 +23,13 @@
         }
 
         /* Disable grayscale on hover */
-        img:hover {
-            -webkit-filter: grayscale(0);
-            filter: none;
-            transition: .8s;
-            transform: scale(1.5);
+        @media screen and (min-width: 1024px) {
+            img:hover {
+                -webkit-filter: grayscale(0);
+                filter: none;
+                transition: .8s;
+                transform: scale(1.5);
+            }
         }
     }
 }

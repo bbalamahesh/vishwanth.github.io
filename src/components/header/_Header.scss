@@ -11,14 +11,23 @@
             &:last-child {
                 margin-right: 0;
             }
+            &:hover {
+                &::before {
+                    color: #fb009a;
+                }
+            }
         }
     }
 }
 .nav {
     .nav-item a, a.nav-item {
-        font-size: 16px;
+        font-size: 18px;
         color: #111;
         font-weight: bold;
+        &:hover {
+            color: #fb009a;
+            cursor: pointer;
+        }
     }
     .nav-item {
         img {

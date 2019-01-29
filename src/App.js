@@ -3,9 +3,10 @@ import Main from './Main'
 import Header from "./components/header/Header";
 
 class App extends Component {
+
   render() {
     return (
-      <div>
+      <div className="app" id="app">
         <Header />
         <Main />
       </div>
