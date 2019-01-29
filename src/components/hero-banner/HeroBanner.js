@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "react-bulma-components/full";
 
 class HeroBanner extends Component {
   render() {

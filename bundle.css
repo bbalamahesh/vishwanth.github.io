@@ -34,6 +34,12 @@ body {
     .header-container .message-header i:last-child {
       margin-right: 0; }
 
+#nav-toggle-state {
+  display: none; }
+
+#nav-toggle-state:checked ~ .nav-menu {
+  display: block; }
+
 .hero-banner {
   background-color: #fff !important;
   margin-top: 8px; }
@@ -86,3 +92,13 @@ body {
     filter: none;
     transition: .8s;
     transform: scale(1.1); }
+
+.video-gallery {
+  margin-top: 32px; }
+  .video-gallery div {
+    display: inline-block;
+    margin: 12px !important;
+    box-shadow: 5px 5px 10px #ccc;
+    -moz-box-shadow: 5px 5px 10px #ccc;
+    -webkit-box-shadow: 5px 5px 10px #ccc;
+    border: 4px solid #fff; }

@@ -10,7 +10,6 @@
     "npm": "^6.6.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
-    "react-bulma-components": "^2.3.0",
     "react-dom": "^16.6.3",
     "react-images": "^0.5.19",
     "react-photo-gallery": "^6.3.0",
