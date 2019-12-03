@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-sass-starterkit",
+  "name": "vishwanth-photo-gallery",
   "version": "1.2.0",
-  "description": "Everything you need to get started with a basic React application",
+  "description": "Vishwanth Photos",
   "watch": true,
   "dependencies": {
     "copy-webpack-plugin": "^4.6.0",
@@ -47,6 +47,6 @@
     "lint": "./node_modules/.bin/eslint ./src"
   },
   "precommit": "lint",
-  "author": "Santhosh Sundar",
+  "author": "Bala Mahesh",
   "license": "MIT"
 }
